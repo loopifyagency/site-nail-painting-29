@@ -1,0 +1,7 @@
+# captures de revue et dossiers temporaires d'Impeccable
+.impeccable/review/
+.impeccable/questions/
+.DS_Store
+node_modules/
+__pycache__/
+*.pyc

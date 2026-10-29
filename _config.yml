@@ -1,0 +1,9 @@
+# GitHub Pages (Jekyll) : on ne publie que le site, pas les notes de travail.
+title: Nailpainting29
+exclude:
+  - .claude
+  - .impeccable
+  - DESIGN.md
+  - PRODUCT.md
+  - README.md
+  - skills-lock.json
