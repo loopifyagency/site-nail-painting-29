@@ -1,0 +1,349 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-29T07:20:37Z",
+  "title": "Design System: Nailpainting29",
+  "extensions": {
+    "colorMeta": {
+      "lacquer-white": {
+        "role": "neutral",
+        "displayName": "Blanc laqué",
+        "canonical": "oklch(98% 0.008 217)",
+        "tonalRamp": [
+          "#111212",
+          "#2D2E2E",
+          "#4B4D4E",
+          "#6C6F70",
+          "#8F9394",
+          "#B3B8BA",
+          "#D3D9DA",
+          "#E9F0F2"
+        ]
+      },
+      "blush-nude": {
+        "role": "neutral",
+        "displayName": "Nude rosé",
+        "canonical": "oklch(91% 0.028 46)",
+        "tonalRamp": [
+          "#14110F",
+          "#322C2A",
+          "#534B47",
+          "#776C67",
+          "#9D8F88",
+          "#C5B3AB",
+          "#E8D3C9",
+          "#FFE9E0"
+        ]
+      },
+      "aubergine-ink": {
+        "role": "neutral",
+        "displayName": "Encre aubergine",
+        "canonical": "oklch(23% 0.048 336)",
+        "tonalRamp": [
+          "#1D0919",
+          "#3C2536",
+          "#5B4555",
+          "#7B6876",
+          "#9D8D98",
+          "#C0B3BC",
+          "#DED4DB",
+          "#F4ECF2"
+        ]
+      },
+      "mauve-ink": {
+        "role": "neutral",
+        "displayName": "Encre mauve",
+        "canonical": "oklch(42% 0.044 340)",
+        "tonalRamp": [
+          "#1B0C16",
+          "#3B2634",
+          "#5E4455",
+          "#7E6676",
+          "#A18B99",
+          "#C4B1BD",
+          "#E2D2DC",
+          "#F8EAF2"
+        ]
+      },
+      "mint-lacquer": {
+        "role": "secondary",
+        "displayName": "Laque menthe",
+        "canonical": "oklch(91% 0.159 139)",
+        "tonalRamp": [
+          "#081605",
+          "#20341A",
+          "#38572E",
+          "#517C45",
+          "#6CA35C",
+          "#89CC75",
+          "#A2F08A",
+          "#B9FFA3"
+        ]
+      },
+      "sky-lacquer": {
+        "role": "secondary",
+        "displayName": "Laque ciel",
+        "canonical": "oklch(88% 0.075 219)",
+        "tonalRamp": [
+          "#081417",
+          "#1E3137",
+          "#36525B",
+          "#4F7581",
+          "#6A9BAA",
+          "#87C2D4",
+          "#9FE4F9",
+          "#BAFAFF"
+        ]
+      },
+      "mandarin-lacquer": {
+        "role": "primary",
+        "displayName": "Laque mandarine",
+        "canonical": "oklch(70% 0.196 39)",
+        "tonalRamp": [
+          "#2D0000",
+          "#580F00",
+          "#872800",
+          "#B94312",
+          "#ED5E27",
+          "#FF8959",
+          "#FFB187",
+          "#FFCDA6"
+        ]
+      },
+      "lemon-lacquer": {
+        "role": "secondary",
+        "displayName": "Laque citron",
+        "canonical": "oklch(92% 0.169 104)",
+        "tonalRamp": [
+          "#151200",
+          "#322F0B",
+          "#544F16",
+          "#797123",
+          "#9F9530",
+          "#C7BB3E",
+          "#EADC4A",
+          "#FFF361"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Accroche du hero uniquement."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Titres de section."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Titres de cartes et d'étapes."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Texte courant, mesure de 65 caractères."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Légendes de formulaire, prix « sur demande »."
+      }
+    },
+    "shadows": [
+      {
+        "name": "photo-drop",
+        "value": "drop-shadow(0 18px 20px rgba(43,20,38,.22))",
+        "purpose": "Cadres photo en forme d'ongle (filtre sur le parent du clip-path)."
+      },
+      {
+        "name": "review-card",
+        "value": "0 22px 30px -22px rgba(43,20,38,.5)",
+        "purpose": "Cartes du carrousel d'avis."
+      },
+      {
+        "name": "nav-pill",
+        "value": "0 12px 28px -14px rgba(43,20,38,.4)",
+        "purpose": "Barre de navigation flottante."
+      },
+      {
+        "name": "lacquer-relief",
+        "value": "inset 0 -0.22em 0.35em -0.1em rgba(43,20,38,.16)",
+        "purpose": "Traits, marqueurs et gouttes de laque."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-lacquer",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Expo-out : arrivée de tout état de survol ou d'ouverture."
+      },
+      {
+        "name": "ease-pour",
+        "value": "expo.inOut (GSAP)",
+        "purpose": "Rideau de laque du préchargeur et trait du hero."
+      },
+      {
+        "name": "duration-state",
+        "value": "350-600ms",
+        "purpose": "Changements d'état (boutons, soulignements)."
+      },
+      {
+        "name": "duration-authored",
+        "value": "1100-1500ms",
+        "purpose": "Entrées de titres, masques de photos, rideaux."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "menu",
+        "value": "1100px"
+      },
+      {
+        "name": "compact",
+        "value": "899px"
+      },
+      {
+        "name": "wide",
+        "value": "900px"
+      },
+      {
+        "name": "gallery",
+        "value": "640px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Bouton d'appel : aubergine, la laque mandarine monte au survol.",
+      "html": "<button class=\"ds-btn\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z\"/></svg>Prendre rendez-vous</button>",
+      "css": ".ds-btn{--bg:var(--encre);--fg:var(--lait);--bd:transparent;--fill:var(--mandarine);--fill-fg:var(--encre);position:relative;isolation:isolate;overflow:hidden;display:inline-flex;align-items:center;gap:.6rem;padding:.95rem 1.6rem;border:2px solid var(--bd);border-radius:999px;background:var(--bg);color:var(--fg);font:700 1rem/1 var(--f-text);cursor:pointer;transition:color .35s cubic-bezier(.16,1,.3,1),border-color .35s}.ds-btn::before{content:'';position:absolute;z-index:-1;left:-8%;right:-8%;top:0;height:170%;background:var(--fill);border-radius:50% 50% 0 0/38% 38% 0 0;transform:translateY(102%);transition:transform .6s cubic-bezier(.16,1,.3,1)}.ds-btn::after{content:'';position:absolute;left:14%;width:30%;top:15%;height:11%;border-radius:999px;background:rgba(255,255,255,.28)}.ds-btn:hover,.ds-btn:focus-visible{color:var(--fill-fg);border-color:transparent}.ds-btn:hover::before,.ds-btn:focus-visible::before{transform:translateY(-8%)}.ds-btn:focus-visible{outline:3px solid var(--encre);outline-offset:3px}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Action secondaire (SMS) : contour aubergine, vague citron.",
+      "html": "<button class=\"ds-btn ds-btn-ghost\">Écrire par SMS</button>",
+      "css": ".ds-btn{--bg:var(--encre);--fg:var(--lait);--bd:transparent;--fill:var(--mandarine);--fill-fg:var(--encre);position:relative;isolation:isolate;overflow:hidden;display:inline-flex;align-items:center;gap:.6rem;padding:.95rem 1.6rem;border:2px solid var(--bd);border-radius:999px;background:var(--bg);color:var(--fg);font:700 1rem/1 var(--f-text);cursor:pointer;transition:color .35s cubic-bezier(.16,1,.3,1),border-color .35s}.ds-btn::before{content:'';position:absolute;z-index:-1;left:-8%;right:-8%;top:0;height:170%;background:var(--fill);border-radius:50% 50% 0 0/38% 38% 0 0;transform:translateY(102%);transition:transform .6s cubic-bezier(.16,1,.3,1)}.ds-btn::after{content:'';position:absolute;left:14%;width:30%;top:15%;height:11%;border-radius:999px;background:rgba(255,255,255,.28)}.ds-btn:hover,.ds-btn:focus-visible{color:var(--fill-fg);border-color:transparent}.ds-btn:hover::before,.ds-btn:focus-visible::before{transform:translateY(-8%)}.ds-btn:focus-visible{outline:3px solid var(--encre);outline-offset:3px}.ds-btn-ghost{--bg:transparent;--fg:var(--encre);--bd:var(--encre);--fill:var(--citron)}"
+    },
+    {
+      "name": "Navigation Pill",
+      "kind": "nav",
+      "refersTo": "nav-pill",
+      "description": "Barre flottante en pilule : logo goutte, liens à soulignement qui se peint, bouton d'appel.",
+      "html": "<header class=\"ds-nav\"><a class=\"ds-nav-logo\" href=\"#\"><svg viewBox=\"0 0 24 32\" width=\"18\" height=\"24\"><path d=\"M12 1C17 1 22 10 22 20C22 27 18 31 12 31C6 31 2 27 2 20C2 10 7 1 12 1Z\" fill=\"#FE672E\"/><path d=\"M7 19C6.6 14 8 9.5 10 6.5\" stroke=\"#fff\" stroke-opacity=\".8\" stroke-width=\"2.2\" stroke-linecap=\"round\" fill=\"none\"/></svg>Nailpainting29</a><nav class=\"ds-nav-links\"><a href=\"#\">Le rituel</a><a href=\"#\">Prestations</a><a href=\"#\">Galerie</a></nav><a class=\"ds-nav-call\" href=\"#\">Appeler</a></header>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:1.4rem;padding:.5rem .55rem .5rem 1.15rem;background:var(--lait);border-radius:999px;box-shadow:0 12px 28px -14px rgba(43,20,38,.4),inset 0 1px 0 rgba(255,255,255,.8);color:var(--encre);font-family:var(--f-text)}.ds-nav-logo{display:inline-flex;align-items:center;gap:.55rem;font:400 1.3rem var(--f-display);text-decoration:none;color:inherit}.ds-nav-links{display:flex;gap:1.6rem;margin-left:auto}.ds-nav-links a{color:inherit;text-decoration:none;font-weight:600;padding:.35rem 0;background:linear-gradient(var(--mandarine),var(--mandarine)) 0 100%/0% 3px no-repeat;transition:background-size .5s cubic-bezier(.16,1,.3,1)}.ds-nav-links a:hover,.ds-nav-links a:focus-visible{background-size:100% 3px}.ds-nav-call{background:var(--encre);color:var(--lait);text-decoration:none;font-weight:700;padding:.7rem 1.1rem;border-radius:999px}.ds-nav a:focus-visible{outline:3px solid var(--encre);outline-offset:3px;border-radius:6px}"
+    },
+    {
+      "name": "Service Card",
+      "kind": "card",
+      "refersTo": "service-card",
+      "description": "Carte de prestation sur laque pleine : photo en forme d'ongle, titre en serif, « Tarif sur demande ».",
+      "html": "<article class=\"ds-card\"><div class=\"ds-nailframe\"></div><h3>La French colorée</h3><p>La ligne de sourire en menthe, ciel, mandarine ou citron. Ou en blanc, pour les puristes.</p><p class=\"ds-price\">Tarif sur demande</p></article>",
+      "css": ".ds-card{width:20rem;padding:1.1rem 1.1rem 1.5rem;border-radius:14px;background:var(--ciel);color:var(--encre);display:grid;gap:.7rem;font-family:var(--f-text)}.ds-nailframe{width:100%;aspect-ratio:5/6;border-radius:50% 50% 22% 22%/62% 62% 10% 10%;background:var(--lait)}.ds-card h3{margin:0;font:400 2rem/1.05 var(--f-display)}.ds-card p{margin:0;line-height:1.45}.ds-price{font-weight:800;font-size:.86rem;letter-spacing:.05em;text-transform:uppercase}"
+    },
+    {
+      "name": "Review Card",
+      "kind": "card",
+      "refersTo": "review-card",
+      "description": "Avis client en blanc laqué : guillemet mandarine, texte en serif, avatar initial sur une laque.",
+      "html": "<figure class=\"ds-review\"><blockquote>Laurie est très souriante et à l’écoute des clientes. Son travail est magnifique. Je recommande à 100% !</blockquote><figcaption><span class=\"ds-av\">Z</span><cite>Zoe Morvan</cite></figcaption></figure>",
+      "css": ".ds-review{margin:0;width:26rem;display:flex;flex-direction:column;gap:1.6rem;padding:1.9rem 1.8rem 1.6rem;background:var(--lait);color:var(--encre);border-radius:16px;box-shadow:0 22px 30px -22px rgba(43,20,38,.5)}.ds-review blockquote{margin:0;font:400 1.4rem/1.32 var(--f-display)}.ds-review blockquote::before{content:'\\201C';display:block;font-size:4.4rem;line-height:.6;height:2rem;color:var(--mandarine)}.ds-review figcaption{display:flex;align-items:center;gap:.8rem}.ds-av{display:grid;place-items:center;width:2.7rem;height:2.7rem;border-radius:50%;background:var(--ciel);font:400 1.3rem var(--f-display);box-shadow:inset 0 -.25rem .4rem -.15rem rgba(43,20,38,.2)}.ds-review cite{font:800 1rem var(--f-text);font-style:normal}"
+    },
+    {
+      "name": "Option Chip",
+      "kind": "chip",
+      "refersTo": "option-chip",
+      "description": "Choix de forme ou de motif : pilule à contour, pleine quand elle est sélectionnée.",
+      "html": "<div class=\"ds-chips\"><label class=\"ds-chip\"><input type=\"radio\" name=\"f\" checked><span>Carré</span></label><label class=\"ds-chip\"><input type=\"radio\" name=\"f\"><span>Amande</span></label><label class=\"ds-chip\"><input type=\"radio\" name=\"f\"><span>Ovale</span></label></div>",
+      "css": ".ds-chips{display:flex;gap:.5rem;font-family:var(--f-text)}.ds-chip{position:relative;cursor:pointer}.ds-chip input{position:absolute;inset:0;opacity:0;margin:0;cursor:pointer}.ds-chip span{display:inline-block;padding:.7rem 1.15rem;border:2px solid var(--encre);border-radius:999px;font-weight:700;color:var(--encre);transition:background-color .3s,color .3s}.ds-chip:hover span{background:var(--nude)}.ds-chip input:checked+span{background:var(--encre);color:var(--lait)}.ds-chip input:focus-visible+span{outline:3px solid var(--encre);outline-offset:3px}"
+    },
+    {
+      "name": "Colour Swatch",
+      "kind": "chip",
+      "refersTo": "option-chip",
+      "description": "Pastille de teinte en forme de goutte d'ongle, avec reflet.",
+      "html": "<div class=\"ds-sw\"><label><input type=\"radio\" name=\"t\" checked><span class=\"ds-dot\" style=\"--sw:#F2CFC3\"></span><b>Nude</b></label><label><input type=\"radio\" name=\"t\"><span class=\"ds-dot\" style=\"--sw:var(--menthe)\"></span><b>Menthe</b></label><label><input type=\"radio\" name=\"t\"><span class=\"ds-dot\" style=\"--sw:var(--mandarine)\"></span><b>Mandarine</b></label></div>",
+      "css": ".ds-sw{display:flex;gap:1rem;font-family:var(--f-text)}.ds-sw label{position:relative;display:grid;justify-items:center;gap:.35rem;cursor:pointer}.ds-sw input{position:absolute;opacity:0;inset:0;margin:0;cursor:pointer}.ds-dot{width:3.1rem;height:3.1rem;border-radius:50% 50% 50% 50%/62% 62% 38% 38%;background:var(--sw);border:2px solid transparent;box-shadow:inset 0 -.35rem .5rem -.2rem rgba(43,20,38,.2),inset 0 .25rem .3rem -.1rem rgba(255,255,255,.55);transition:transform .45s cubic-bezier(.16,1,.3,1),border-color .3s}.ds-sw label:hover .ds-dot{transform:translateY(-3px)}.ds-sw input:checked~.ds-dot{border-color:var(--encre);transform:scale(1.1)}.ds-sw b{font-size:.82rem}"
+    },
+    {
+      "name": "Count Marker",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "Chiffre en serif sur un trait de laque peint, suivi d'une phrase : remplace la carte de statistique.",
+      "html": "<p class=\"ds-count\"><span class=\"ds-mark\"><b>5</b> sur <b>5</b></span><span class=\"ds-txt\">avis ci-dessous disent « Je recommande ».</span></p>",
+      "css": ".ds-count{display:flex;flex-wrap:wrap;align-items:center;gap:.6rem 1.4rem;margin:0;color:var(--encre)}.ds-mark{position:relative;isolation:isolate;display:inline-block;padding:.02em .32em .1em;font:400 3.4rem/1.05 var(--f-display);font-variant-numeric:tabular-nums}.ds-mark::before{content:'';position:absolute;inset:0;z-index:-1;border-radius:999px;background:var(--mandarine);box-shadow:inset 0 -.14em .25em -.08em rgba(43,20,38,.18)}.ds-txt{font:600 1.2rem/1.3 var(--f-text);max-width:21rem}"
+    },
+    {
+      "name": "Lacquer Stroke",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "Le trait de vernis : pilule de laque avec reflet blanc au tiers supérieur et ombre douce en bas ; support du titre du hero.",
+      "html": "<div class=\"ds-stroke\"><span>qui sourient.</span></div>",
+      "css": ".ds-stroke{position:relative;display:inline-block;padding:.05em .3em .12em;border-radius:999px;background:var(--mandarine);box-shadow:inset 0 -.22em .35em -.1em rgba(43,20,38,.16);color:var(--encre);font:400 4rem/.94 var(--f-display);letter-spacing:-.02em}.ds-stroke::before{content:'';position:absolute;left:3%;right:30%;top:12%;height:9%;border-radius:999px;background:rgba(255,255,255,.4)}.ds-stroke span{position:relative}"
+    }
+  ],
+  "narrative": {
+    "northStar": "La pose",
+    "overview": "Le site est un ongle en train d'être peint. Chaque surface, chaque transition, chaque soulignement est un trait de vernis : épais, arrondi, brillant, avec un reflet blanc sur le tiers supérieur et une ombre douce sur le bord bas. Le ton est sophistiqué par la retenue (un fond blanc laqué, une encre aubergine, une seule police d'affichage à fort contraste) et chaleureux et coloré par l'échelle : quatre laques imposées occupent des sections entières, pas des touches d'accent.",
+    "keyCharacteristics": [
+      "Laque en aplats pleins qui possèdent des sections entières ; texte toujours en encre aubergine sur les quatre laques.",
+      "Reflet blanc (le « gloss ») comme signature répétée : traits, gouttes, boutons, photos, ongles du composeur.",
+      "Cadres photo en forme d'ongle ; aucune photo en rectangle brut.",
+      "Typographie géante pour les moments clés, jamais pour le texte courant.",
+      "Mouvement comme un geste de pose : couche qui monte, rideau qui se lève, trait qui se peint."
+    ],
+    "rules": [
+      {
+        "name": "The Ink-On-Lacquer Rule",
+        "body": "Sur chacune des quatre laques, le texte est en encre aubergine, jamais blanc. Le blanc sur la mandarine échoue au contraste.",
+        "section": "colors"
+      },
+      {
+        "name": "The Lacquer Field Rule",
+        "body": "Une laque occupe une section ou une bande entière, jamais un simple filet ou un badge perdu sur un fond neutre.",
+        "section": "colors"
+      },
+      {
+        "name": "The Giant Moment Rule",
+        "body": "Au-dessus de 6rem, la serif n'apparaît que pour l'accroche, le numéro de téléphone, les marqueurs de chiffres et le nom en pied de page.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Numbers Rule",
+        "body": "Compteurs, horaires et statut d'ouverture utilisent des chiffres tabulaires.",
+        "section": "typography"
+      },
+      {
+        "name": "The Gloss Rule",
+        "body": "Toute forme de laque porte un reflet blanc translucide sur son tiers supérieur.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Meniscus Edge Rule",
+        "body": "Chaque section après le hero rencontre la précédente par un bord courbe surligné d'un filet blanc de 3px, qui monte au scroll.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Nail Frame Rule",
+        "body": "Une photo n'apparaît que dans un cadre en forme d'ongle (carré arrondi, amande ou ovale).",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do poser le texte en encre aubergine (#2B1426) sur chacune des quatre laques.",
+      "Do donner un reflet blanc à toute forme de laque (traits, gouttes, boutons, ongles).",
+      "Do garder les photos dans des cadres en forme d'ongle.",
+      "Do faire varier la composition et l'animation de chaque section : une seule idée de mouvement par section.",
+      "Do laisser le contenu visible par défaut et réserver les états masqués à JavaScript ; prévoir la variante `prefers-reduced-motion`."
+    ],
+    "donts": [
+      "Don't mettre du blanc sur la laque mandarine, ni de la mandarine en texte sur fond clair.",
+      "Don't ajouter un surtitre au-dessus d'un titre de section.",
+      "Don't dessiner de main, de visage ou de scène : seules des formes géométriques (ongles, gouttes, étoile, nœud).",
+      "Don't inventer de prix, de chiffres ou de réseaux sociaux : ce qui n'est pas fourni est omis ou marqué « sur demande ».",
+      "Don't reprendre un fond crème et une serif fine : c'est le réflexe du secteur."
+    ]
+  }
+}
